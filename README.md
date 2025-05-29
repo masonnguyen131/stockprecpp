@@ -20,10 +20,10 @@ A C++ application that analyzes historical stock data and predicts future prices
 ### Build & Run
 ```bash
 # Compile
-clang++ -std=c++11 main.cpp -l SplashKit -o stock_predictor
+clang++ hd -l SplashKit -o hd
 
 # Run with your CSV file
-./stock_predictor AAPL.csv
+./hd AAPL.csv
 
 ```
 
